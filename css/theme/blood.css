@@ -58,10 +58,10 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 3.77em; }
+  font-size: 3.11em; }
 
 .reveal h2 {
-  font-size: 2.11em; }
+  font-size: 2em; }
 
 .reveal h3 {
   font-size: 1.55em; }
@@ -71,6 +71,55 @@ body {
 
 .reveal h1 {
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+
+/*********************************************
+ * SHARE REVEAL
+ *********************************************/
+.share-reveal .share-reveal-editor {
+  line-height: 30px; }
+
+.share-reveal a {
+  display: inline-block;
+  height: 34px;
+  line-height: 32px;
+  padding: 0 10px;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  vertical-align: top;
+  text-transform: uppercase;
+  box-sizing: border-box; }
+
+.share-reveal-editor {
+  border: 2px solid #fff; }
+
+.share-reveal a {
+  display: inline-block;
+  height: 34px;
+  line-height: 32px;
+  padding: 0 10px;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  vertical-align: top;
+  text-transform: uppercase;
+  box-sizing: border-box; }
+
+.share-reveal svg {
+  vertical-align: middle; }
+
+.share-reveal a + a {
+  margin-left: 10px; }
+
+.share-reveal-facebook {
+  background-color: #4B71B8; }
+
+.share-reveal-twitter, .share-reveal-follow {
+  background-color: #a23; }
 
 /*********************************************
  * OTHER
@@ -233,9 +282,9 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #eee;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  /*background: rgba(255, 255, 255, 0.12);*/
+  /*border: 4px solid #eee;*/
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);*/ }
 
 .reveal section img.plain {
   border: 0;
@@ -247,8 +296,8 @@ body {
   transition: all .15s linear; }
 
 .reveal a:hover img {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: #a23;
+  /*background: rgba(255, 255, 255, 0.2);*/
+  /*border-color: #a23;*/
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -313,3 +362,22 @@ body {
 
 .reveal small code {
   vertical-align: baseline; }
+
+
+  /*********************************************
+   * TEXT COLORS
+   *********************************************/
+.red-intense {
+  color: #a23; }
+
+.black-default {
+  color: #222 !important; }
+
+.blue-saphir {
+  color: #1b91ff; }
+
+.green-esmerald {
+  color: #17ff2e; }
+
+.yellow-submarine {
+  color: #fbab1e; }  

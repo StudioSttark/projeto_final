@@ -44,7 +44,8 @@ body {
 body {
   position: relative;
   line-height: 1;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-image: url(../img/bg.png) repeat;
   color: #000; }
 
 /*********************************************
